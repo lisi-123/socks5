@@ -29,3 +29,28 @@ systemctl enable socks5-proxy
 systemctl status socks5-proxy
 
 ```
+
+<br>
+
+```bash
+
+{
+      "tag": "socks5",
+      "protocol": "socks",
+      "settings": {
+      "servers": [
+        {
+        "address": "127.0.0.1",
+        "port": 1080,
+        "users": [
+          {
+            "user": "myuser",
+            "pass": "Myp@ssw0rd#2026"
+          }
+        ]
+        }
+      ]
+    }
+  }
+
+```
