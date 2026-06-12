@@ -1,3 +1,4 @@
+```bash
 # 赋予执行权限
 chmod +x /root/socks5/socks5-proxy
 
@@ -26,3 +27,5 @@ systemctl enable socks5-proxy
 
 # 查看状态（可选）
 systemctl status socks5-proxy
+
+```
