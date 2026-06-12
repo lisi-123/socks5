@@ -48,7 +48,7 @@ systemctl status socks5-proxy
             "pass": "Myp@ssw0rd#2026"
           }
         ]
-        }
+       }
       ]
     }
   }
