@@ -1,4 +1,11 @@
 ```bash
+git clone https://github.com/lisi-123/socks5.git
+cd socks5
+
+```
+
+
+```bash
 # 赋予执行权限
 chmod +x /root/socks5/socks5-proxy
 
