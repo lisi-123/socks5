@@ -43,6 +43,10 @@ systemctl status socks5-proxy
 
 <br>
 
+
+
+## v2node中填写的格式示范
+
 ```bash
 
 {
