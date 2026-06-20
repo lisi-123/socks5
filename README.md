@@ -1,8 +1,12 @@
+## 第一步
+
 ```bash
 git clone https://github.com/lisi-123/socks5.git
 cd socks5
 
 ```
+
+## 第二步
 
 
 ```bash
