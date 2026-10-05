@@ -56,7 +56,7 @@ systemctl status socks5-proxy
 
 
 
-## v2node中填写的格式示范
+## xiao版v2board使用v2node时，路由填写的格式示范
 
 ```bash
 
