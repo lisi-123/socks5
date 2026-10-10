@@ -68,6 +68,7 @@ cd socks5
 
 
 ```bash
+chmod +x /root/socks5/socks5-proxy
 cat > /etc/init.d/socks5-proxy <<'EOF'
 #!/sbin/openrc-run
 
