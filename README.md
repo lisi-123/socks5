@@ -56,6 +56,45 @@ systemctl status socks5-proxy
 
 
 
+如果是alpine系统
+
+```bash
+apk add git
+git clone https://github.com/lisi-123/socks5.git
+cd socks5
+
+```
+
+
+
+```bash
+cat > /etc/init.d/socks5-proxy <<'EOF'
+#!/sbin/openrc-run
+
+name="socks5-proxy"
+description="SOCKS5 Proxy"
+command="/root/socks5/socks5-proxy"
+command_background="yes"
+pidfile="/run/${RC_SVCNAME}.pid"
+directory="/root/socks5"
+respawn_delay=5
+respawn_max=0
+
+depend() {
+    need net
+}
+EOF
+
+chmod +x /etc/init.d/socks5-proxy
+
+rc-service socks5-proxy start
+rc-update add socks5-proxy default
+
+rc-service socks5-proxy status
+
+```
+
+
 ## xiao版v2board使用v2node时，路由填写的格式示范
 
 ```bash
