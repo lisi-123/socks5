@@ -66,7 +66,7 @@ systemctl status socks5-proxy
       "settings": {
       "servers": [
         {
-        "address": "127.0.0.1",
+        "address": "vps的ip，或解析了ip的域名",
         "port": 40002,
         "users": [
           {
