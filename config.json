@@ -3,7 +3,7 @@
     "username": "myuser",
     "password": "Myp@ssw0rd#2026",
     "cascade": {
-        "enabled": true,
+        "enabled": false,
         "host": "127.0.0.1",
         "port": "40000",
         "username": "",
