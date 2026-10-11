@@ -91,8 +91,9 @@ systemctl status socks5-proxy
 
 ```
 
-
 如果修改了 /root/socks5/config.json 中的端口，用户名，密码，请替换成修改后的内容
+
+config.json 中的 cascade 配置可以继续对接其他socks5作为该socks5的出口
 
 
 <br>
