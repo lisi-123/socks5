@@ -1,4 +1,4 @@
-# 轻量化自建socks5
+# 轻量化自建socks5（arm64版本）
 
 socks5-proxy 是用 main.go 编译的，信不过可以自己去编译
 
