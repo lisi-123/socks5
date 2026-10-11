@@ -1,6 +1,16 @@
-# 轻量化自建socks5
+# 轻量化自建socks5（amd64）
 
 socks5-proxy 是用 main.go 编译的，信不过可以自己去编译
+
+```bash
+cd /root
+git clone -b arm --single-branch https://github.com/lisi-123/socks5.git
+cd /root/socks5
+go get github.com/armon/go-socks5
+go mod tidy
+go build -trimpath -ldflags="-s -w" -o socks5-proxy .
+
+```
 
 以下是使用编译好的文件搭建socks5的方法
 
