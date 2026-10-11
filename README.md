@@ -9,7 +9,8 @@ socks5-proxy 是用 main.go 编译的，信不过可以自己去编译
 ## 第一步
 
 ```bash
-git clone https://github.com/lisi-123/socks5.git
+cd /root
+git clone -b arm --single-branch https://github.com/lisi-123/socks5.git
 cd socks5
 
 ```
