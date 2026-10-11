@@ -2,6 +2,16 @@
 
 socks5-proxy 是用 main.go 编译的，信不过可以自己去编译
 
+```bash
+cd /root
+git clone -b arm --single-branch https://github.com/lisi-123/socks5.git
+cd /root/socks5
+go get github.com/armon/go-socks5
+go mod tidy
+GOOS=linux GOARCH=arm64 CGO_ENABLED=0 go build -o socks5-proxy main.go
+
+```
+
 以下是使用编译好的文件搭建socks5的方法
 
 <br>
